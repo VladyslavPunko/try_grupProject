@@ -1,0 +1,27 @@
+.wrapper_contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.delete_button {
+  font-size: 16px;
+  font-weight: 500px;
+  letter-spacing: 1px;
+  padding: 10px 20px 13px;
+  outline: 0;
+  border: 1px solid #e87438;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 20px;
+  color: black;
+  transition: transform 0.3s ease;
+  color: #e87438;
+}
+
+.delete_button:focus,
+.delete_button:hover {
+  transform: scale(1.1);
+}
